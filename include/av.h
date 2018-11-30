@@ -1,5 +1,5 @@
-#ifndef FFMPEG_CPP_AV_H
-#define FFMPEG_CPP_AV_H
+#ifndef _FFMPEG_CPP_EXTERNAL_HEADER
+#define _FFMPEG_CPP_EXTERNAL_HEADER
 
 #include "../src/av.h"
 #include "../src/Codec.h"
@@ -9,4 +9,4 @@
 #include "../src/Parser.h"
 #include "../src/SwsContext.h"
 
-#endif //FFMPEG_CPP_AV_H
+#endif //_FFMPEG_CPP_EXTERNAL_HEADER
