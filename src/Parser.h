@@ -8,6 +8,7 @@ extern "C" {
 }
 
 #include "Packet.h"
+#include "Codec.h"
 
 namespace av {
     class Parser {
