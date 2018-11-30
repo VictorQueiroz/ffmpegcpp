@@ -1,4 +1,10 @@
-//
-// Created by victor on 11/30/18.
-//
+#include "Packet.h"
 
+using namespace av;
+
+Packet::Packet() {
+    pkt = av_packet_alloc();
+    if (!pkt) {
+        throw Exception("Failed to allocate packet");
+    }
+}
